@@ -1,0 +1,9 @@
+name: 'Build & Deploy with Arduino'
+description: '🧪 Build and deploy your Arduino code via OTA.'
+author: 'parshnt'
+branding:
+  icon: 'arrow-up-circle'  
+  color: 'red'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
